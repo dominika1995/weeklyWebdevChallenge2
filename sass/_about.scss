@@ -1,0 +1,44 @@
+#about{
+  background-color: rgb(1,186,188);
+  .about__img {
+    text-align: center;
+    img {
+      width: 80%;
+      @media#{$sm-screen}{
+        width: 100%;
+      }
+      @media#{$xs-screen}{
+        width: 90%;
+      }
+    }
+  }
+  .about__text{
+    color:white;
+    margin-top:5%;
+    &--title{
+      font-size: 5em;
+      @media#{$md-screen}{
+        font-size: 4em;
+      }
+      @media#{$xs-screen}{
+        text-align: center;
+      }
+    }
+    &--long{
+      font-size: 1em;
+      @media#{$sm-screen}{
+        font-size: 0.9em;
+      }
+      @media#{$xs-screen}{
+        font-size: 1em;
+        padding-bottom: 5%;
+      }
+    }
+    @media#{$md-screen}{
+      margin-top: 3%;
+    }
+    @media#{$sm-screen}{
+      margin-top: 1%;
+    }
+  }
+}
