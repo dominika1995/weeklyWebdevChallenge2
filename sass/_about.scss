@@ -1,6 +1,8 @@
-#about{
-  background-color: rgb(1,186,188);
-  .about__img {
+#about {
+  background-color: rgb(1, 186, 188);
+}
+.about{
+  &__img {
     text-align: center;
     img {
       width: 80%;
@@ -12,7 +14,7 @@
       }
     }
   }
-  .about__text{
+  &__text{
     color:white;
     margin-top:5%;
     &--title{
