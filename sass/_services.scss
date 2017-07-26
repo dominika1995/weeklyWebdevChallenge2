@@ -1,32 +1,32 @@
-#services{
-  background-color: rgb(112,192,255);
-  .services{
-    &__button{
+#services {
+  background-color: rgb(112, 192, 255);
+  .services {
+    &__button {
       padding-top: 10%;
       padding-bottom: 10%;
       text-align: center;
-      img{
+      img {
         padding: 10px;
         width: 60%;
-        :hover{
+        :hover {
           box-shadow: 10px 10px 5px #888888;
         }
 
       }
     }
-    &__img{
+    &__img {
       padding-top: 5%;
       text-align: center;
       @media#{$sm-screen}{
         padding-top: 10%;
       }
-      figure{
+      figure {
         //padding-top: 10%;
         position: relative;
         @media#{$xs-screen}{
           margin-left: 25%;
         }
-        img{
+        img {
           display: block;
           @media#{$md-screen}{
             width: 80%;
@@ -35,11 +35,11 @@
             width: 60%;
           }
         }
-        figcaption{
+        figcaption {
           position: absolute;
           color: white;
           font-size: 6em;
-          top:35%;
+          top: 35%;
           @media#{$md-screen}{
             font-size: 5em;
           }
@@ -50,13 +50,13 @@
             font-size: 3em;
             //left:-2%;
           }
-          @media only screen and (max-width: 550px){
+          @media only screen and (max-width: 550px) {
             font-size: 2.5em;
           }
-          @media only screen and (max-width: 450px){
-            left:-5%;
+          @media only screen and (max-width: 450px) {
+            left: -5%;
           }
-          @media only screen and (max-width: 400px){
+          @media only screen and (max-width: 400px) {
             font-size: 2em;
           }
         }
