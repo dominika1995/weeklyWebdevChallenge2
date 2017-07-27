@@ -1,0 +1,38 @@
+.footer{
+  background-color: black;
+  padding: 2% 0;
+  font-family: "Raleway";
+  &__logo{
+
+    img{
+      margin: 0 auto;
+    }
+  }
+
+  &__text{
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.667;
+    &--red{
+      color:#f12b55;
+    }
+    &--right{
+      text-align: right;
+    }
+
+    @media#{$xs-screen}{
+      font-size: 10px;
+    }
+  }
+}
+
+.Made_with_love_by_Auskteez {
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgb(185, 185, 185);
+  line-height: 1.667;
+  position: absolute;
+  left: 1142.937px;
+  top: 6312.381px;
+  z-index: 5;
+}
