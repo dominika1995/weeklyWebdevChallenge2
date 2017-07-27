@@ -27,18 +27,29 @@
   }
 
   &__photo{
+
+    img {
+
+      &:hover {
+        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+      }
+    }
+
     div{
+
       img{
         @media#{$xs-screen}{
           margin: 3% auto;
           width: 100%;
         }
+
       }
     }
 
     &--two{
+
       img{
-        padding-bottom: 5%;
+        margin-bottom: 5%;
         margin-left: 8%;
         width: 88%;
         @media#{$sm-screen}{
@@ -57,13 +68,14 @@
   &__button{
     margin-top: 4%;
     margin-bottom: 4%;
+    background-color: #5585a2;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-color: transparent;
 
-    button {
-      background-color: #5585a2;
-      padding: 20px;
-      font-size: 20px;
-      color: white;
-      border-color: transparent;
+    &:hover{
+      box-shadow: 0px 5px 5px 0px rgba(85, 133, 162, 0.5);
     }
   }
 }

@@ -113,12 +113,14 @@
       @media screen and (max-width: 500px) {
         .gallery__text--long {
           padding: 2% 5%; } }
+  .gallery__photo img:hover {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 768px) {
     .gallery__photo div img {
       margin: 3% auto;
       width: 100%; } }
   .gallery__photo--two img {
-    padding-bottom: 5%;
+    margin-bottom: 5%;
     margin-left: 8%;
     width: 88%; }
     @media only screen and (max-width: 992px) {
@@ -132,13 +134,14 @@
         padding: 0 4%; } }
   .gallery__button {
     margin-top: 4%;
-    margin-bottom: 4%; }
-    .gallery__button button {
-      background-color: #5585a2;
-      padding: 20px;
-      font-size: 20px;
-      color: white;
-      border-color: transparent; }
+    margin-bottom: 4%;
+    background-color: #5585a2;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-color: transparent; }
+    .gallery__button:hover {
+      box-shadow: 0px 5px 5px 0px rgba(85, 133, 162, 0.5); }
 
 .subscribe {
   background-image: url("../img/subscribe.png");
