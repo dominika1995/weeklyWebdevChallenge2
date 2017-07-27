@@ -1,0 +1,57 @@
+.contact{
+  background-image: url('../img/footer_1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  font-family: "Raleway";
+
+
+  &__form{
+    margin-top: 5%;
+  }
+
+  &__input{
+    font-size: 15px;
+    color:white;
+    padding-left: 20px;
+    line-height: 1.667;
+    background-color: rgba(0, 196, 196,0.5);
+    width: 90%;
+    height: 50px;
+    border: none;
+
+    &--message{
+      height: 150px;
+    }
+
+    &:hover,&:focus,&:checked{
+      background-color: rgba(0, 196, 196,1);
+      border-left: 3px solid #355b82;
+    }
+  }
+
+
+  &--address{
+    margin-top: 5%;
+
+    @media#{$xs-screen}{
+      margin-left: 5%;
+    }
+  }
+  &__name{
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.471;
+    margin:0;
+  }
+
+  &__date{
+    text-align: left;
+    font-size: 15px;
+
+  }
+}
+
