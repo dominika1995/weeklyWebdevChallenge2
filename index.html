@@ -17,31 +17,66 @@
 
 <body>
 
-    <header class="container nav navbar-fixed-top">
-        <nav>
+<header class="container nav navbar-fixed-top">
+    <!--<nav>
 
-            <div class="col-xs-2 nav__logo"><img class="img-responsive" src="img/logo.png" />
+        <div class="col-xs-2 nav__logo"><img class="img-responsive" src="img/logo.png"/>
+        </div>
+
+        <nav class="col-xs-10">
+            <ul class="nav__list">
+                <li id="active">HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>GALLERY</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+
+    </nav>-->
+
+
+    <nav class="navbar navbar-main navbar-default">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png"/></a>
             </div>
 
-            <nav class="col-xs-10">
-                <ul class="nav__list">
-                    <li id="active">HOME</li>
-                    <li>ABOUT</li>
-                    <li>SERVICES</li>
-                    <li>GALLERY</li>
-                    <li>BLOG</li>
-                    <li>CONTACT</li>
+            <div class="collapse navbar-main__menu navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="active"><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+    </nav>
 
-        </nav>
-    </header>
+
+
+
+
+
+
+</header>
 
 <section class="container-fluid fresh">
     <div class="container">
         <div class="col-sm-6 col-xs-8">
             <p class="fresh__title">Fresh Life</p>
-            <p class="fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco.</p>
             <button class="fresh__button">GET FREE NOW</button>
         </div>
         <div class="col-xs-12 fresh__scroll">
@@ -134,7 +169,7 @@
         </div>
         <div class="row">
 
-                <button class="gallery__button">VIEW MORE</button>
+            <button class="gallery__button">VIEW MORE</button>
 
         </div>
     </div>
@@ -230,8 +265,8 @@
         <div class="col-xs-12 col-sm-6 contact__form">
             <form>
                 <p><input class="contact__input" value="Your name..."/></p>
-                <p><input class="contact__input" value="Your email..." /></p>
-                <p><input class="contact__input" value="Your phone number..." /></p>
+                <p><input class="contact__input" value="Your email..."/></p>
+                <p><input class="contact__input" value="Your phone number..."/></p>
                 <p><input class="contact__input contact__input--message" value="Your message..."/></p>
 
             </form>
