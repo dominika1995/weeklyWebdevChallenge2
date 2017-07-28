@@ -447,3 +447,16 @@
     .navbar-main__menu #active {
       border-top: 4px solid darkorange;
       background-color: transparent; }
+  .navbar-main .navbar-toggle {
+    margin: 3% 3%;
+    border-color: black; }
+    .navbar-main .navbar-toggle:hover, .navbar-main .navbar-toggle:focus {
+      background: transparent; }
+    .navbar-main .navbar-toggle .icon-bar {
+      background-color: black; }
+  @media only screen and (max-width: 768px) {
+    .navbar-main .navbar-collapse {
+      background: rgba(255, 255, 255, 0.5);
+      height: 700px;
+      max-height: 1000px;
+      text-align: right; } }

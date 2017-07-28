@@ -74,4 +74,27 @@
       background-color: transparent;
     }
   }
+
+  .navbar-toggle {
+    margin:3% 3%;
+    border-color: black;
+
+    &:hover,&:focus{
+      background: transparent;
+    }
+
+    .icon-bar {
+      background-color: black;
+    }
+  }
+
+  .navbar-collapse{
+    @media#{$xs-screen}{
+      background: rgba(255, 255, 255, 0.5);
+      height: 700px;
+      max-height: 1000px;
+      text-align: right;
+    }
+  }
+
 }
